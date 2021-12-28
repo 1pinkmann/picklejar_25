@@ -328,8 +328,7 @@ input[type=number] {
 }
 .app__background {
   width: 100%;
-  height: 1150px;
-  max-width: 1950px;
+  height: 1173px;
   position: absolute;
   background-image: url(../images/app/crowd-bg.png);
   background-position: center;
@@ -357,6 +356,22 @@ input[type=number] {
 .app__icon {
   width: 66%;
   margin-top: -347px;
+}
+.app__title {
+  font-family: "Flintstock-Oblique";
+  font-size: 53.72px;
+}
+.app__text {
+  font-family: "Flintstock-Round-Oblique";
+}
+.app__text--4 {
+  font-size: 135.92px;
+}
+.app__text--3 {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 3.52px;
 }
 
 @media (max-width: 1479px) {

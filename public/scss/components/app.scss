@@ -20,8 +20,7 @@
 
     &__background {
         width: 100%;
-        height: 1150px;
-        max-width: 1950px;
+        height: 1173px;
         position: absolute;
 
         background-image: url(../images/app/crowd-bg.png);
@@ -48,6 +47,26 @@
     &__icon {
         width: 66%;
         margin-top: -347px;
+    }
+
+    &__title {
+        font-family: $font-fs-o;
+        font-size: 53.72px;
+    }
+
+    &__text {
+        font-family: $font-fs-rd-o;
+    }
+
+    &__text--4 {
+        font-size: 135.92px;
+    }
+
+    &__text--3 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3.52px;
     }
 }
 
