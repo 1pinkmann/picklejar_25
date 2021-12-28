@@ -1,22 +1,4 @@
 @font-face {
-    font-family: 'Lato-Regular';
-    src: url('subset-Lato-Regular.woff2') format('woff2'),
-        url('subset-Lato-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato-Light';
-    src: url('subset-Lato-Light.woff2') format('woff2'),
-        url('subset-Lato-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Flintstock-Round-Oblique';
     src: url('subset-Flintstock-RoundOblique.woff2') format('woff2'),
         url('subset-Flintstock-RoundOblique.ttf') format('truetype');
@@ -61,3 +43,20 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('subset-Lato-Black.woff2') format('woff2'),
+        url('subset-Lato-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato-Medium';
+    src: url('subset-Lato-Medium.woff2') format('woff2'),
+        url('subset-Lato-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
